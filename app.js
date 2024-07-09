@@ -130,10 +130,10 @@ Note: The final result should log as:
 
 Complete Exercise 9 in the space below:
 */
-
+const allFoods = foods.join(" -> ")
 
 // --- UNCOMMENT CONSOLE.LOG ---
-// console.log('Exercise 9 result:', allFoods);
+console.log('Exercise 9 result:', allFoods);
 
 
 /*
