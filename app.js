@@ -66,10 +66,10 @@ Exercise 5: Insert an element between two others
 
 Complete Exercise 5 in the space below:
 */
-
+foods.splice(2, 0, "tofu")
 
 // --- UNCOMMENT CONSOLE.LOG ---
-// console.log('Exercise 5 result:', foods);
+console.log('Exercise 5 result:', foods);
 
 
 /*
