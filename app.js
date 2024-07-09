@@ -245,6 +245,13 @@ Exercise 13: Retrieve the Last Array
 
 Complete Exercise 13 in the space below:
 */
+   // create a new variable (numList) that is an empty arr
+   // populate numList with the last nested arr in numArrays - [7, 81, 90]
+   // parameters to solving the problem:
+      // 1) not knowing the quantity of nested arrs - at(), indexOf() are out
+      // 2) leave nunArrays as is...DO NOT ALTER! - pop(), splice() are out
+   // need to iterate: for loop, for...of, forEach()
+   // do i need to incorporate an if/esle statement?
 
 const numArrays = [
 	[100, 5, 23],
