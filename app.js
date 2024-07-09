@@ -174,10 +174,9 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 const odds = []
 
-for(const num of nums){
+for(let num of nums){
   if(num % 2 !== 0){
-   console.log("sanity check")
-   console.log(odds)
+   odds.push(num)
   }
 }
 
