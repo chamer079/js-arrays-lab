@@ -53,7 +53,7 @@ Exercise 4: Access an array element
 
 Complete Exercise 4 in the space below:
 */
-
+const favFood = foods[1]
 
 // --- UNCOMMENT CONSOLE.LOG ---
 console.log('Exercise 4 result:', favFood);
