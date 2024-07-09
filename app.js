@@ -111,10 +111,10 @@ Exercise 8: Finding an index
 
 Complete Exercise 8 in the space below:
 */
-
+const soyIdx = foods.indexOf("tofu")
 
 // --- UNCOMMENT CONSOLE.LOG ---
-// console.log('Exercise 8 result:', soyIdx);
+console.log('Exercise 8 result:', soyIdx);
 
 
 /*
