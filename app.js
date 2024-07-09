@@ -203,13 +203,35 @@ Exercise 12: FizzBuzz with arrays
 
 Complete Exercise 12 in the space below:
 */
+   // similar to previous problem
+   // create 3 new empty arrs :  fizz[], buzz[], & fizzbuzz[]
+   // need to iterate from nums variable from problem 11
+   // if/else statment
+      // 1) num % 3 === 0 -> fizz[]
+      // 2) num % 5 === 0 -> buzz[]
+      // 3) num % 3 === 0 && num % 5 === 0 -> fizzbuzz[]
+   // use push() to populate new arrs
+   
+const fizz = []
+const buzz = []
+const fizzbuzz = []
+
+for(let num of nums){   
+   if(num % 3 === 0 && num % 5 === 0){
+      fizzbuzz.push(num)
+   } else if(num % 3 === 0){
+      fizz.push(num)
+   } else if(num % 5 === 0){
+      buzz.push(num)
+   }
+}
 
 
 // --- UNCOMMENT CONSOLE.LOG ---
-// console.log('Exercise 12 Results:');
-// console.log('  fizz:', fizz);
-// console.log('  buzz:', buzz);
-// console.log('  fizzbuzz:', fizzbuzz);
+console.log('Exercise 12 Results:');
+console.log('  fizz:', fizz);
+console.log('  buzz:', buzz);
+console.log('  fizzbuzz:', fizzbuzz);
 
 
 /*
