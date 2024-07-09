@@ -163,12 +163,27 @@ Hint: Initialize the `odds` variable to an empty array before the iteration.
 
 Complete Exercise 11 in the space below:
 */
+   // challenge self - use for...of
+   // create new variabale (odds) that is an empty arr
+   // will need an if/else statement to sift through odds vs evens
+   // use slice() or push()...?
+   // odds arr should consist of 8 numbers - 5, 23, 15, 21, 9, 45, 7, & 81
+
 
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
+const odds = []
+
+for(const num of nums){
+  if(num % 2 !== 0){
+   console.log("sanity check")
+   console.log(odds)
+  }
+}
+
 
 // --- UNCOMMENT CONSOLE.LOG ---
-// console.log('Exercise 11 result:', odds);
+console.log('Exercise 11 result:', odds);
 
 
 /*
