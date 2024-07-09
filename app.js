@@ -146,10 +146,10 @@ Exercise 10: Check for an element
 
 Complete Exercise 10 in the space below:
 */
-
+const hasSoup = foods.includes("soup")
 
 // --- UNCOMMENT CONSOLE.LOG ---
-// console.log('Exercise 10 result:', hasSoup);
+console.log('Exercise 10 result:', hasSoup);
 
 
 /*
