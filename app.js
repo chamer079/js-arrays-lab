@@ -95,10 +95,10 @@ Exercise 7: Using the `slice()` method
 
 Complete Exercise 7 in the space below:
 */
-
+const yummy = foods.slice(1, 3)
 
 // --- UNCOMMENT CONSOLE.LOG ---
-// console.log('Exercise 7 result:', yummy);
+console.log('Exercise 7 result:', yummy);
 
 
 /*
