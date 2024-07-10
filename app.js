@@ -296,7 +296,7 @@ Complete Exercise 14 in the space below:
       // leave numArrays as is...DO NOT ALTER!    
       // use example/starting point from Josh vi resource channel
 
-let num = []
+const num = []
 
 for(let arr of numArrays){
    for(let element of arr){
@@ -326,9 +326,7 @@ Complete Exercise 15 in the space below:
 let total = 0
 
 numArrays.forEach((arr) => {
-   console.log("test", arr)
    arr.forEach((element) => {
-      console.log("check", element)
       total += element
    })
 })
