@@ -296,14 +296,13 @@ Complete Exercise 14 in the space below:
       // leave numArrays as is...DO NOT ALTER!    
       // use example/starting point from Josh vi resource channel
 
-const num = 0
+let num = []
 
 for(let arr of numArrays){
-   console.log(arr)
-   for(let num of arr){
-      console.log(num)
-            
-     
+   for(let element of arr){
+      if(element === 66){
+         num.push(element)
+      }  
    }
 }
 
