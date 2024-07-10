@@ -307,9 +307,6 @@ for(let arr of numArrays){
 }
 
 
-
-
-
 // --- UNCOMMENT CONSOLE.LOG ---
 console.log('Exercise 14 result:', num);
 
@@ -326,7 +323,16 @@ Hint: Be sure to declare and initialize the total variable before the iterations
 Complete Exercise 15 in the space below:
 */
 
+let total = 0
+
+numArrays.forEach((arr) => {
+   console.log("test", arr)
+   arr.forEach((element) => {
+      console.log("check", element)
+      total += element
+   })
+})
 
 // --- UNCOMMENT CONSOLE.LOG ---
-// console.log('Exercise 15 result:\n', total);
+console.log('Exercise 15 result:\n', total);
 
