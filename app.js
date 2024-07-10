@@ -300,7 +300,15 @@ const num = 0
 
 for(let arr of numArrays){
    console.log(arr)
+   for(let num of arr){
+      console.log(num)
+            
+     
+   }
 }
+
+
+
 
 
 // --- UNCOMMENT CONSOLE.LOG ---
