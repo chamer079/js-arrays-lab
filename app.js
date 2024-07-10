@@ -248,7 +248,7 @@ Complete Exercise 13 in the space below:
    // create a new variable (numList) that is an empty arr
    // populate numList with the last nested arr in numArrays - [7, 81, 90]
    // parameters to solving the problem:
-      // 1) not knowing the quantity of nested arrs - at(), indexOf() are out
+      // 1) go in not knowing the quantity of nested arrs - indexOf() is out
       // 2) leave nunArrays as is...DO NOT ALTER! - pop(), splice() are out.
    // use length or at()...?
    // need to iterate: for loop, for...of, forEach()
@@ -264,12 +264,14 @@ const numArrays = [
 const numList = []
 
 numArrays.forEach((arr) => {
-   // console.log(numArrays.at(-1))
+   // console.log("test")
    if(arr >= numArrays.at(-1)){
       // console.log("sanity check")
       numList.push(arr)
    }
+   // console.log(numArrays)
 })
+
 
 
 // --- UNCOMMENT CONSOLE.LOG ---
@@ -286,10 +288,23 @@ Exercise 14: Accessing within nested arrays
 
 Complete Exercise 14 in the space below:
 */
+   // create a variable - num
+   // retrieve "66" from the nested arrs
+      // will need to iterate through NumArrays - for...of might be the best choice
+      // will need if/else statement   
+         // incorporate break...continue?
+      // leave numArrays as is...DO NOT ALTER!    
+      // use example/starting point from Josh vi resource channel
+
+const num = 0
+
+for(let arr of numArrays){
+   console.log(arr)
+}
 
 
 // --- UNCOMMENT CONSOLE.LOG ---
-// console.log('Exercise 14 result:', num);
+console.log('Exercise 14 result:', num);
 
 /*
 Exercise 15: Nested array sum
