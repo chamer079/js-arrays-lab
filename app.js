@@ -20,7 +20,7 @@ Note: 'pizza' should be the first item in the array, followed by 'cheeseburger'.
 
 Complete Exercise 2 in the space below:
 */
-foods.push("pizza", )
+foods.push("pizza" )
 foods.push("cheeseburger")
 
 // foods.push("pizza", "cheeseburger") -> able to add multiple elements to an array w/ .push()
@@ -249,7 +249,8 @@ Complete Exercise 13 in the space below:
    // populate numList with the last nested arr in numArrays - [7, 81, 90]
    // parameters to solving the problem:
       // 1) not knowing the quantity of nested arrs - at(), indexOf() are out
-      // 2) leave nunArrays as is...DO NOT ALTER! - pop(), splice() are out
+      // 2) leave nunArrays as is...DO NOT ALTER! - pop(), splice() are out.
+   // use length or at()...?
    // need to iterate: for loop, for...of, forEach()
    // do i need to incorporate an if/esle statement?
 
@@ -260,8 +261,19 @@ const numArrays = [
 	[7, 81, 90]
 ];
 
+const numList = []
+
+numArrays.forEach((arr) => {
+   // console.log(numArrays.at(-1))
+   if(arr >= numArrays.at(-1)){
+      // console.log("sanity check")
+      numList.push(arr)
+   }
+})
+
+
 // --- UNCOMMENT CONSOLE.LOG ---
-// console.log('Exercise 13 result:', numList);
+console.log('Exercise 13 result:', numList);
 
 
 /*
